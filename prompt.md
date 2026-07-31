@@ -1,1 +1,1 @@
-Act as an expert frontend webdeveloper and UI engineer with 15 years of experience and complete the rest of the webdeveloper as per the assignment instruction for the AI part in the file I gave you .
+Act as an expert frontend webdeveloper and UI engineer with 15 years of experience and complete the rest of the webdeveloper as per the assignment instruction for the AI part in the file I gave you . also keep in mind that the existing code does not get modified and complete the website in a way that it mactches the description.
