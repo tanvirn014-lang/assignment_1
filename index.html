@@ -4,9 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devconf 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header class="navbar">
+        <div class="logo-box">
+            <a href="#" class="logo"><img src="./image/logo.png" alt="DevConf 2026 Logo" class="logo-image"></a>
+        </div>
+        <nav class ="nav-links">
+            <a href="#speakers">Speakers</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#tracks">Tracks</a>
+            <a href="#venue">Venue</a>
+            <a href="#blog">Blog</a>
+            </nav>
+            <div class="nav-button-box">
+              <a href="#pricing" class= "btn btn-primary ">Register Now</a>
+            </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-text-box">
+            <h1>Code. <span class="highlight-word">Connect.</span> Create.</h1>
+            <p class="hero-paragraph">
+            Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.
+            </p>
+
+            <a href="#pricing" class= "btn btn-primary ">Register Now</a>
+        </div>
+
+    </section>
+<section class="speaker-section" id="speakers">
+    <h2 class="section-title">meet the speaker</h2>
+    <div class="speaker-card-wrapper">
+    <div class="speaker-card">
+        <img src="./image/andrej.png" alt="Photo of speaker one" class="speaker-photo">
+        <span class="speaker-tag"> AI/ML</span>
+        <h3 class="speaker-name">Dr. Amara Chen</h3>
+        <p class="speaker-title">Head of AI Research, Nimbus Labs</p>
+    </div>
+    <div class="speaker-card">
+        <img src="./image/demis.png" alt="Photo of speaker two" class="speaker-photo">
+        <span class="speaker-tag">Cloud &amp; DevOps</span>
+        <h3 class="speaker-name">Marcus Webb</h3>
+        <p class="speaker-title">Principal DevOps Engineer, Skyforge Cloud</p>
+      </div>
+    <div class="speaker-card">
+        <img src="./image/gary.png" alt="Photo of speaker three" class="speaker-photo">
+        <span class="speaker-tag">Frontend</span>
+        <h3 class="speaker-name">Ravi Patel</h3>
+        <p class="speaker-title">Staff Frontend Engineer, Pixelworks</p>
+    </div>
+    <div class="speaker-card">
+        <img src="./image/mustafa.png" alt="Photo of speaker four" class="speaker-photo">
+        <span class="speaker-tag">Security</span>
+        <h3 class="speaker-name">Elena Volkov</h3>
+        <p class="speaker-title">Director of Security Engineering, Cipherline</p>
+      </div>
+    </div>
+</section>
+
+<section class="pricing-section" id="pricing">
+
+    <h2 class="section-title">Secure Your Spot</h2>
+    <p class="section-subtitle">Choose the pass that fits how you want to experience DevConf 2026.</p>
+
+    <div class="pricing-cards-wrapper">
+
+      <div class="price-card">
+        <h3 class="plan-name">Standard</h3>
+        <p class="plan-price">$149</p>
+        <ul class="plan-feature-list">
+          <li>✓ Access to all keynote sessions</li>
+          <li>✓ Entry to the expo hall</li>
+          <li>✓ Digital badge and swag bag</li>
+          <li>✓ Recorded sessions for 30 days</li>
+        </ul>
+        <a href="#" class="btn btn-outline">Choose Plan</a>
+      </div>
+
+      <div class="price-card price-card-featured">
+        <p class="popular-badge">Most Popular</p>
+        <h3 class="plan-name">Pro</h3>
+        <p class="plan-price">$349</p>
+        <ul class="plan-feature-list">
+          <li>✓ Everything in Standard</li>
+          <li>✓ All workshops and breakout sessions</li>
+          <li>✓ Priority seating at keynotes</li>
+          <li>✓ 1:1 speaker meet and greet</li>
+          <li>✓ Lifetime recording access</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Go Pro</a>
+      </div>
+      <div class="price-card">
+        <h3 class="plan-name">Team</h3>
+        <p class="plan-price">$299 <span class="price-per-seat">/ seat</span></p>
+        <ul class="plan-feature-list">
+          <li>✓ Everything in Pro</li>
+          <li>✓ Dedicated team lounge access</li>
+          <li>✓ Group onboarding session</li>
+          <li>✓ Single invoice, volume pricing</li>
+        </ul>
+        <a href="#" class="btn btn-outline">Choose Plan</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="faq-section" id="faq">
+    <h2 class="section-title">Got Questions?</h2>
+    <p class="section-subtitle">Everything attendees ask us before they book.</p>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary class="faq-question">Is there a hackathon at DevConf 2026?</summary>
+        <p class="faq-answer">Yes - Track 8 runs a 24-hour build sprint on the final day, open to every ticket holder, with prizes for the top three teams.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Will sessions be recorded?</summary>
+        <p class="faq-answer">Every talk is recorded and added to your dashboard within 48 hours, so a clashing schedule never means missing out.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">What's the dress code?</summary>
+        <p class="faq-answer">Come as you are. Most attendees wear whatever they'd code in on a regular Tuesday.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Can I get a refund if my plans change?</summary>
+        <p class="faq-answer">Passes are transferable to a colleague up to 7 days before the event, and fully refundable up to 30 days out.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Is the venue accessible?</summary>
+        <p class="faq-answer">Yes - step-free entry, accessible restrooms on every floor, and live captioning for all keynote sessions.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top-row">
+      <img src="./image/footer-logo.png" alt="DevConf 2026 Logo" class="footer-logo-image">
+      <div class="social-links">
+        <a href="#" class="social-icon">GH</a>
+        <a href="#" class="social-icon">in</a>
+        <a href="#" class="social-icon">X</a>
+        <a href="#" class="social-icon">YT</a>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="copyright-text">© 2026 DevConf. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
